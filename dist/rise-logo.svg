@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 960" role="img" aria-labelledby="title desc">
+  <title id="title">RISE Investment Company logo</title>
+  <desc id="desc">Green leaf and yellow crescent logo with RISE Investment Company text.</desc>
+  <defs>
+    <linearGradient id="greenA" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#3cff23"/>
+      <stop offset="0.48" stop-color="#07a80f"/>
+      <stop offset="1" stop-color="#016b0b"/>
+    </linearGradient>
+    <linearGradient id="greenB" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#53ff2e"/>
+      <stop offset="0.55" stop-color="#08ad12"/>
+      <stop offset="1" stop-color="#005d09"/>
+    </linearGradient>
+    <linearGradient id="yellowA" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#fff65a"/>
+      <stop offset="0.55" stop-color="#ffd200"/>
+      <stop offset="1" stop-color="#f0a800"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="7" stdDeviation="9" flood-color="#002900" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#softShadow)">
+    <circle cx="305" cy="278" r="58" fill="url(#yellowA)"/>
+
+    <path
+      d="M55 420C143 353 234 345 312 388C372 421 396 476 452 497C402 508 332 508 273 464C217 421 190 384 121 394C95 398 73 407 55 420Z"
+      fill="url(#greenB)"
+    />
+
+    <path
+      d="M389 727C287 566 292 403 373 278C419 206 489 221 569 177C696 107 843 128 955 213C803 177 661 218 548 326C428 441 407 620 511 759C464 760 423 750 389 727Z"
+      fill="url(#greenA)"
+    />
+
+    <path
+      d="M640 690C506 609 479 464 563 351C655 228 837 256 1011 409C881 296 729 300 627 397C525 494 529 628 640 690Z"
+      fill="url(#yellowA)"
+    />
+  </g>
+
+  <g transform="translate(640 462)">
+    <text
+      x="0"
+      y="95"
+      fill="#06a90f"
+      font-family="Georgia, 'Times New Roman', serif"
+      font-size="165"
+      font-weight="900"
+      letter-spacing="10"
+      stroke="#005e08"
+      stroke-width="3"
+    >RISE</text>
+    <rect x="8" y="122" width="505" height="12" rx="6" fill="#0daf18"/>
+    <text
+      x="12"
+      y="192"
+      fill="#09aa14"
+      font-family="Arial, Helvetica, sans-serif"
+      font-size="50"
+      font-weight="800"
+    >Investment Company</text>
+  </g>
+</svg>
